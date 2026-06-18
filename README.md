@@ -4,8 +4,7 @@ An end-to-end business intelligence project modeling and visualizing **200,000+ 
 
 ---
 
-## 📸 Dashboard Preview
-👉 **[View the Dashboard PDF (Restaurant.pdf)](Restaurant.pdf)** — *GitHub renders PDFs natively, so recruiters can view the full multi-page dashboard layout directly in their web browser!*
+## 📸 Dashboard Preview (Restaurant.pdf)
 
 ---
 
