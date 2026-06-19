@@ -56,14 +56,6 @@ An end-to-end business intelligence project modeling and visualizing **200,000+ 
 
 ---
 
-## ⚠️ Data Quality Audit & Transformations
-Data Analysts must verify data integrity before reporting. This project highlights a real-world scenario of **CSV-to-Excel delimiter shifting**:
-
-1.  **Shifted Restaurants (8.03% of DB)**: Commas/newlines in text shifted columns, moving raw review content into the `online_order` and `book_table` columns. Shifted rows were programmatically isolated and cleansed.
-2.  **Shifted Cities (5.05% of Customers)**: Long review text entered the `City` column. While the Power BI `FilterCity` length filter caught **50.5%** of these, **49.5%** (short fragments like `('Rated 4.0'`) leaked into the final database. A custom regex filter was created to guarantee clean geo-reporting.
-
----
-
 ## 💡 Business Recommendations
 1.  **Optimize Courier Dispatch in BTM & Koramangala**: Since BTM accounts for nearly 10% of total revenue, deploying dedicated driver hubs there will reduce the **48.12% late delivery rate**.
 2.  **SLA Penalty for Delayed Vendors**: Since average delivery is 44.55 minutes (just under the 45-minute late mark), enforce order-prep time limits for merchant partners to prevent late deliveries.
